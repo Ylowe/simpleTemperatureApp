@@ -36,6 +36,8 @@ $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=Boston&units=metric&
     
     $('body').css("background-color", "rgb(" + red_val + "," +green_val + "," + blue_val);
 
+    $('.info').css("color", "rgb(" + (red_val*1.30) + "," + (green_val*1.30) + "," + (blue_val*1.30));
+
     $('.icon').attr('src', weather_icon);
     $('.description').append(weather_description);
     $('.temperature').append(temperature + "C");
