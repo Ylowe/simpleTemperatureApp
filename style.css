@@ -1,0 +1,28 @@
+.weatherContainer
+{
+    margin: auto;
+    margin-top: 20vh;
+    width: 50%;
+}
+
+.weatherContainer p
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.description
+{
+    text-transform: capitalize;
+    font-size: 50px;
+    margin-top: 5px;
+    
+}
+
+.temperature
+{
+    font-size: 120px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
